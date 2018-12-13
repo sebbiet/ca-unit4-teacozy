@@ -59,3 +59,46 @@ nav span {
   width: 1200px;
   margin: auto;
 }
+
+/* Mission */
+
+#mission {
+  padding-top: 70px; /* 69px + 1px border of header*/
+  height: 700px;
+  background-image: url("../images/img-mission-background.jpg");
+}
+
+#mission .content {
+  background-color: black;
+  align-content: center;
+  width:100%;
+  margin: auto;
+}
+
+/* Featured */
+
+#featured {
+  width: 1000px;
+  padding-top: 70px;
+  margin: auto; /*center align the content inside its parent container*
+}
+
+/* Featured Products */
+
+.products {
+  display: flex;
+  flex-direction: row;
+}
+
+.product {
+  padding: 10px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.product img {
+  display: block;
+  height: 200px;
+  width: 300px;
+  padding-bottom: 10px;
+}
